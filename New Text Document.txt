@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 <Hello>
 ganga
+=======
+<Hello>
+>>>>>>> e166fd3... Hello text added
