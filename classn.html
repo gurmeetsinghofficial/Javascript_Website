@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>
+HW
+</title>
+<script type="text/javascript">
+function fun()
+{
+var a=document.getElementById("abcd").value;
+var b=document.createElement("tr");
+var bb=document.createElement("td");
+var c=document.createTextNode(a);
+bb.appendChild(c);
+b.appendChild(bb);
+var d=document.getElementById("abc");
+d.appendChild(b);
+}
+</script>
+<style type="text/css">
+table{
+	border-collapse: collapse;
+	background-color: black;
+	color:white;
+}
+</style>
+</head>
+<body>
+<table border="1">
+	<thead><tr>
+<th colspan="2">here you will see a magic</th></tr></thead>
+<tr><td>Password</td><td><input type="text" id="abcd" placeholder="Enter Password"></td></tr>
+</table>
+<button onclick="fun()" id="ab">click me!</button>
+<table type="none" id="abc">
+</table>
+</body>
+</html>
